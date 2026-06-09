@@ -1,0 +1,13 @@
+streamlit
+plotly
+pydeck
+folium
+streamlit-folium
+langchain
+langchain-groq
+langgraph
+supabase
+python-dotenv
+pandas
+requests
+httpx

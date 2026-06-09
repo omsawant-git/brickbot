@@ -1,0 +1,60 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+venv*/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Data
+data/
+*.parquet
+*.csv
+*.xlsx
+*.zip
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Model artifacts
+pipeline/llm/extraction/artifacts/
+pipeline/ml/forecasting/artifacts/
+*.pt
+*.bin
+*.safetensors
+*.gguf
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+logs/
+
+# EDA reports
+pipeline/eda/reports/
+
+# Cache
+.cache/
+*.tmp
